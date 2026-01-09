@@ -1,4 +1,4 @@
-# Professor Finder 🎓
+# Professor Finder 🎓(Under Development,Not Complete yet)
 
 A Django web application that helps find professors by location, institution, and expertise using AI-powered search with Tavily and Groq APIs.
 
@@ -320,23 +320,7 @@ Access at `/admin/` to:
 - View and edit professor profiles
 - Monitor search results
 
-## Troubleshooting
 
-### Common Issues
-
-1. **API Key Errors**
-   - Ensure `.env` file exists with correct keys
-   - Verify API keys are valid and have quota remaining
-
-2. **Empty Search Results**
-   - Check API keys are configured
-   - Try broader skill terms
-   - Verify university/department data exists
-
-3. **Dropdown Loading Issues**
-   - Ensure JavaScript is enabled
-   - Check browser console for errors
-   - Verify AJAX endpoints are working
 
 ### Error Logging
 Check terminal output for detailed error messages from API calls.
@@ -444,14 +428,6 @@ For production deployment:
 - Configure proper static file serving
 - Set up SSL certificates
 - Use environment variables for sensitive data
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ## License
 
