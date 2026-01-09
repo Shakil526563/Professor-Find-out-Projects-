@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Django Development Server",
+			"type": "shell",
+			"command": ".venv/Scripts/python.exe",
+			"args": [
+				"manage.py",
+				"runserver"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		},
+		{
+			"label": "Django REST API Server",
+			"type": "shell",
+			"command": ".venv\\Scripts\\python.exe manage.py runserver 8002",
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}
